@@ -1,0 +1,9 @@
+header {
+  height: 70px;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+header::after {
+  content: url("../images/logo.png");
+  margin-right: 20px;
+}
